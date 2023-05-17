@@ -7,8 +7,8 @@ import requests
 import json
 import streamlit as st
 
-openai.api_key = "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"
-openai.organization = "org-xBQETvXAMvDf7SMTdXFAPd9v"
+openai.api_key = "sk-xxxx"
+openai.organization = "org-xxxx"
 
 
 def BitcoinPriceAnalysis():
@@ -136,7 +136,7 @@ Please keep this information in mind and generate a prompt about  """ + input}
     url = 'https://stablediffusionapi.com/api/v3/text2img'
 
     data = {
-        "key": "Vl1oyubamdtyZSVeFrrmvjRwRuDnJ4KtDPHpzwYAlEcIFancjGkUZAND7Kt5",
+        "key": "xxxx",
         "prompt": promptGenerated,
         "negative_prompt": "",
         "width": "512",
