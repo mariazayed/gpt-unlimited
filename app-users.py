@@ -157,7 +157,6 @@ Please keep this information in mind and generate a prompt about  """ + input}
     return imgURL
 
 
-# SearchTheWeb("learnwithhasan.com affiliate marketing")
 # print(BitcoinPriceAnalysis())
 
 st.title('GPT Unlimited 🚀')
